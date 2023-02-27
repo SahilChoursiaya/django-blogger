@@ -1,5 +1,5 @@
 **/.env
 venv/
-db.sqlite2
+**/db.sqlite3
 **/__pycache__/
 **/.pytest_cache
