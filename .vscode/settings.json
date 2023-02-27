@@ -1,0 +1,28 @@
+{
+    "python.defaultInterpreterPath": "./venv/bin/",
+
+
+    "editor.formatOnSave": true,
+
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "./venv/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "72"
+    ],
+    
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "72"
+    ],
+
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+}
