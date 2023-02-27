@@ -34,4 +34,4 @@ class Post(models.Model):
 
     def __str__(self):
         # return human readable text
-        return self.name
+        return self.title
